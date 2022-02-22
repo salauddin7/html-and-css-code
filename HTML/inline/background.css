@@ -1,0 +1,10 @@
+body{
+    /* background-image: url("download.jpg");
+    background-repeat: no-repeat;
+    background-position:right;
+    background-attachment: fixed; */
+    background: #fff url("download.jpg") no-repeat right fixed;
+}
+h1{
+    text-align: center;
+}

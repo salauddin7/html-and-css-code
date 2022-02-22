@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Table</title>
+</head>
+<body>
+    <header>
+        <h1>HTML Table</h1>
+    </header>
+    <main>
+        <table>
+            <caption>
+                student info
+            </caption>
+            <colgroup>
+            <col span="3" style="background-color:red"/>
+            </colgroup>
+            <thead>
+                <tr>
+                  <th scope="col">ID</th>
+                  <th scope="col">NAME</th>
+                  <th scope="col">GPA</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td scope="row">101</td>
+                <td>salauddin</td>
+                <td>3.67</td>
+                </tr>
+                <tr>
+                    <td scope="row">102</td>
+                    <td>elias</td>
+                    <td>3.47</td>
+                    </tr>
+
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>

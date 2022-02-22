@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <form>
+
+      <div>
+         <label for="fullname">FullName:</label>
+        <input type="text"name="fullname"id="fullname"required>
+      </div><br>
+
+      <div>
+        <label for="email">Email:</label>
+       <input type="email"name="email"id="email" >
+     </div><br>
+
+     <div>
+        <label for="Password">Password:</label>
+       <input type="password"name="password"id="password" >
+     </div><br>
+
+     <div>
+        <label for="dob">Date of birth:</label>
+       <input type="Date"name="date of birth"id="date of birth" >
+     </div><br>
+
+     <div>
+        <label for="Photo">Choose Your Photo:</label>
+       <input type="file"name="photo"id="photo" >
+     </div><br>
+
+     <div>
+        <label for="gender">Gender:</label>
+       <input type="radio"name="gender"id="gender" value="male" >male
+       <input type="radio"name="gender"id="gender" value="male" >female
+     </div><br>
+
+     <div>
+        <label for="gender">religion:</label>
+        <input checked type="checkbox"name="C1"id="muslim" value="islam" >Muslim
+        <input type="checkbox"name="c1"id="hindu" value="hindu" >Hindu
+        <input type="checkbox"name="c1"id="chistrian"value="chistrian">Chistrian
+     </div><br>
+
+     <div>
+         <label for="department">Department </label>
+
+        <select name="department">
+            <option value="CSE" > CSE</option>
+            <option value="EEE" selected > EEE</option>
+            <option value="LLB" > LLB</option>
+            <option value="PHD" > PHD</option>
+        </select>
+     </div><br>
+     <div>
+        <label for="message">Message: </label><br>
+        <textarea cols="30" rows="20" required readonly> </textarea>
+     </div>
+
+<div>
+ <input type="SUBMIT"value="Register"disabled>
+ <input type="RESET"value="Reset">
+</div>
+    </form>
+
+</body> 
+</html> 
